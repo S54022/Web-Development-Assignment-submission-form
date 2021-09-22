@@ -1,0 +1,45 @@
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+header{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),url(image/ball.gif);
+    height: 60vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 200px;    
+}
+h1{
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px
+}
+.submit_button {
+    margin-left: 250px;
+     height: 60px;
+     width: 120px;
+     background: #016ABC;
+     color: #000;
+     border: 1px solid #eee;
+     border-radius: 20px;
+     box-shadow: 5px 5px 5px #eee;
+     text-shadow:none;
+}
+.submit_button:hover{
+     background: #B9DFFF;
+     color: #000;
+     border: 1px solid #eee;
+     border-radius: 20px;
+     box-shadow: 5px 5px 5px #eee;
+     text-shadow:none;
+}
+.right{
+    float: right;
+    display: inline;
+    margin-top: -90px;
+}

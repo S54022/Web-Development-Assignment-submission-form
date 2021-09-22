@@ -1,0 +1,76 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <title>Submission Assignment</title>
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+        <link rel="stylesheet" type="text/css" href="2015-03-25_13-52-05__grid.css">
+    </head>
+    <body>
+    <header>
+        <h1><span>Assignment Submission Form</span></h1>
+    </header>
+        <form method="post" action="backend.php" class="candidate_form" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col span-1-of-4">
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="col span-1-of-4">
+                    <input type="text" name="name" id="name" placeholder="Name" required size="40">
+                </div>
+            </div>
+            <div class="row">
+                <div class="right">
+                <div class="col span-1-of-4">
+                    <label>Description</label>
+                </div>
+                <div class="col span-1-of-2">
+                    <textarea name="Desp" placeholder="Description" rows="10" cols="40"></textarea>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col span-1-of-4">
+                    <label for="name">Roll No.</label>
+                </div>
+                <div class="col span-1-of-4">
+                    <input type="Number" name="roll_no" id="roll_no" placeholder="Roll No." required size="40">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4">
+                    <label for="name">Email</label>
+                </div>
+                <div class="col span-1-of-4">
+                    <input type="text" name="email" id="email" placeholder="Email" size="40">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4">
+                    <label for="name">Phone No.</label>
+                </div>
+                <div class="col span-1-of-4">
+                    <input type="Number" name="Phone_no" id="Phone_no" placeholder="Phone Number" size="40">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="right">
+                <div class="col span-2-of-4">
+                    <label>Upload Resume</label>
+                </div>
+                <div class="col span-1-of-4">
+                    <input class = "file"type="file" name="file" size="50"/>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="col span-1-of-4">
+                    <input class="submit_button" type="submit" name="submit" id="submit" >
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
